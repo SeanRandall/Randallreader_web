@@ -192,6 +192,7 @@ Articulation: Determines clarity vs. slurring. range: 0 to 9. Default, 5.
 Expression: Determines intonation/animation. Range: 0 to 9. Default: 5.
 Formant Frequency: Determines  vocal tract  size. Range: 0 to 99. Default: 50.
 Reverb : determines resonance of the voice. Range: 0 to 9. Default: 0.
+
 #### miscellaneous settings
 * Time and date: Hear or set the date and time. This is automatically established whenever you enable wifi. In the default mode and assuming you've given the Reader your wifi credentials, this means Reader will update the time whenever you charge it. You can set the time manually should you prefer from this menu. If you have *not* enabled wifi, you'll need to set the date and time yourself.
 * Verbosity: Determines how chatty the Reader is about providing help and information during use. Choices: Beginner, advanced. Default: Beginner.
@@ -205,10 +206,12 @@ Reverb : determines resonance of the voice. Range: 0 to 9. Default: 0.
 * default navigation mode: Determines which navigation mode is chosen by default and, if remember navigation is off, each time you open a book. Choices: Characters, words, sentences, lines, paragraphs. Default: sentence.
 * Bable location: Determines where the "bable" file is stored. Choices: Reader, SD Card. Default: Reader.  Note: larger book collections will cause your Babel file to increase in size. Read the section on the Babel file in this owner's manual to understand how this might impact you.
 * On file completion: determines whether, upon finishing reading a file, the Reader does anything else. Choices: Go to sleep, restart the file from the beginning, start the next file. Default: go to sleep.
-File sorting: Determines the order of files listed on the SD card. Choices: Alphabetical, date modified, date accessed, size. Default: alphabetical
+* File sorting: Determines the order of files listed on the SD card. Choices: Alphabetical, date, size. Default: alphabetical
+* Show recent files: determines whether a "recents" folder appears in your library, listing the latest files you've accessed. Default: on.
 * Hold Time: Determines how long, in milliseconds, you need to hold down a button before it's secondary function is activated. Choices: 25 to 250 ms. Default, 100MS.
 * Idle time: Determines how long the Reader will wait for a button before going into deep sleep. Range: 10 to 300 seconds. Default: 30 seconds.
 * UI Sound volume: determines whether and at what volume user interface sounds are played. range: 0 (off) to 15 (loudest).
+
 #### System actions
 * Wireless radio: select to toggle on or off the wifi connection.  If this mode is already on and the Reader is connected to a network, you will hear the local hostname and IP address of the reader here. 
 * Speech synthesizer mode: select to enable the speech synthesizer passthrough. You can't use the Reader when this mode is turned off, which will automatically happen when you unplug the cable. This option is not functional without a connection to a computer.
@@ -234,10 +237,14 @@ The Randall Reader can connect to your home's wireless network. This allows you 
 
 Note: if you've set the Wireless radio option to manual, you'll need to manually disconnect from the network as well. If you prefer to leave your Reader connected to wifi at all times, you will see significantly poorer battery life than choosing to only connect when you want to update the files stored on the card. The Reader will keep time without needing to check in with a network, so you can safely disconnect from Wifi once you've got a time signal and have files to listen to on your card.
  
+To connect the Reader to your home's network, you need to provide your network name, or SSID, and password, also called a security key. When you go to the system menu and choose the wireless radio option for the first time, the Reader looks for a file on the SD card called wifi or wifi.txt. You'll need to create this file either on the card before inserting it into your Reader, or by plugging the Reader into your computer and using a file manager and text editor. 
 
-To connect the Reader to your home's network, you need to provide your network name, or SSID, and password, also called a security key. When you go to the system menu and choose the wireless radio option for the first time, the Reader looks for a file on the SD card called wifi or wifi.txt. You'll need to create this file either on the card before inserting it into your Reader, or by plugging the Reader into your computer and using a file manager and text editor. Note: you'll need to trigger the wireless radio option in the system menu at least once for the Reader to retrieve these wifi credentials even if the Wireless mode is set to when plugged in. in the future, the wifi connection will start and stop in line with power supplied to your Reader.
+Note: you'll need to trigger the wireless radio option in the system menu at least once for the Reader to retrieve these wifi credentials even if the Wireless mode is set to when plugged in. in the future, the wifi connection will start and stop in line with power supplied to your Reader.
 
-The file simply needs to have both of the pieces of data the Reader needs, 1 per line. The first line of your text file should be the network name, and the second line the password.
+Note: If you're buying the assembled version of the reader and are happy transmitting your Wifi credentials over the Internet, it's a simple matter to have the card pre-loaded with the file. Just pop a note on the order form.
+
+
+The wifi configuration file simply needs to have both of the pieces of data the Reader needs, 1 per line. The first line of your text file should be the network name, and the second line the password.
 
 If you need the Reader to work on multiple networks, simply add more to the file. Lines 1, 3 and 5 are your network names, then lines 2, 4 and 6 are your passwords. 
 
@@ -250,7 +257,7 @@ The Randall Reader does *not* work with captive portals or wireless networks req
 
 if I can't produce files to make this work anew with modern screen readers, I will work closely with those who want such a feature to set up emulation to the best of my ability so we can maximise compatibility across the screen reading ecosystem.  This feature will be in beta during the 1.0 release of the firmware.
 
-To go back to the Reader's regular interface after turning this mode on, simply unplug the USB cable. If this feature becomes widely used we can discuss options for retaining the synthesizer mode if the lock switch is held, using the synthesizer wirelessly etc. 
+To go back to the Reader's regular interface after turning this mode on, simply unplug the USB cable. If this feature becomes widely used we can discuss options for retaining the synthesizer mode more extensively, such as using the synthesizer wirelessly or acting as an NVDA Remote client. 
 
 ### 2.7, Software updates.
 
@@ -261,10 +268,11 @@ The system menus software version section lets you go online and see if there ar
 It is important you make yourself familiar with the pinhole reset options on the Reader's case before choosing to install beta software. If for whatever reason an update is unsuccessful, you'll need to use a paper clip, SIM-tray tool or similar to press these buttons to get your Reader back into a usable condition. Details about these will be affirmed when we have hardware to talk about.
 
 If you prefer, you can download a firmware file to your SD card and install it offline, or indeed produce your own copy of the firmware and send it straight down the wire to your Reader. It is a key feature of the Reader to be expandible by the community. Official firmware versions will always be available online and, should I be unable to supply or support the reader in the future, will be archived where possible or sent to all previous buyers. 
-## Chapter 3, Post-sales support and hardware specifications
+## Chapter 3. Post-sales support and hardware specifications
 
 ### 3.1, About After-Sales Support
 The Randall Reader is not quite a product like your phone or laptop, because each bit of it, although well-connected and tested to do its job, is also removable and replaceable by you. Generally speaking, we buy equipment that is designed and manufactured to be repaired and opened only by authorized service personnel, usually at great (and sometimes ongoing) cost to both the supplier and the customer. The Reader is something we've built together, not only something you've bought as a unit.
+
 I've been very upfront about the fact that I couldn't have met my manufacturing and design costs without a public Kickstarter, and I believe that means you have the right not only to a fantastic product but also to use everything that's gone into it in the way that best works for you. So in this chapter of the owner's manual, I'll tell you a bit about each of the things that have gone into the case, why they're there, and what they do.
 All the components in your Reader are sourced from high-quality, reputable manufacturers. My promise to you is simple: I personally test every single component module before it goes into a kit. The final assembled units are also fully tested using a procedure you can read about in my development diary. This ensures that what you receive is ready to work.
 
