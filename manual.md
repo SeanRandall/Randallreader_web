@@ -186,7 +186,12 @@ For example, the first set of options are the speech volume, rate and pitch. Use
 * Volume: Determines how loud the speech will be. By default this applies individually to the headphones or internal speaker (so you'll see a different value if you come back here when using headphones). Range, 0 to 15. Default, 8.
 * Speed: Determines how quickly the synthesizer talks. range, 0 to 9. Default, 5.
 * Pitch: determines the average pitch of the voice. Range, 0 to 15. Default, 8.
+Punctuation: Determines whether, and how much, punctuation is read. Choices: None, some, all. Default: none.
 * Voice: determines which of the built-in voices you will be using. Range, 0 (articulate male) to 7 (robot). Default, 0.
+Articulation: Determines clarity vs. slurring. range: 0 to 9. Default, 5.
+Expression: Determines intonation/animation. Range: 0 to 9. Default: 5.
+Formant Frequency: Determines  vocal tract  size. Range: 0 to 99. Default: 50.
+Reverb : determines resonance of the voice. Range: 0 to 9. Default: 0.
 #### miscellaneous settings
 * Time and date: Hear or set the date and time. This is automatically established whenever you enable wifi. In the default mode and assuming you've given the Reader your wifi credentials, this means Reader will update the time whenever you charge it. You can set the time manually should you prefer from this menu. If you have *not* enabled wifi, you'll need to set the date and time yourself.
 * Verbosity: Determines how chatty the Reader is about providing help and information during use. Choices: Beginner, advanced. Default: Beginner.
