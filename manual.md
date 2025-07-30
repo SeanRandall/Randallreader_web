@@ -86,7 +86,7 @@ By default, the Reader stores separate volume levels for the internal loudspeake
 
 To decrease the speed or rate of speech, either while playing or paused, press and hold the 1 key. To increase the rate, press and hold 3. If you do so whilst a device is playing, the content you are hearing will change speed without interruption. If you are paused, the Reader will announce the new level. 
 
-By default, you will hear a beep if the speed cannot go any higher or lower. If you prefer you can turn on wrapping in the settings, to allow holding the 1 or 3 keys to cycle through all the rate options.
+By default, you will hear a beep if the speed cannot go any faster or slower.  If you prefer you can turn on wrapping in the settings, to allow holding the 1 or 3 keys to cycle through all the rate options.
 
 Note: with wrapping on, the Reader will move from *very slow* to **a very fast rate of speech** with a single keypress, as well as the opposite. Please keep this in mind if you should choose to enable the wrapping feature. You can change this behaviour by setting the "wrapping" option to "off".
 
@@ -95,7 +95,7 @@ To navigate through the active file, you can use the 4 and 6 keys to go backward
 By default, 4 will read the previous sentence, and 6 will read the next one.
 TO change what the 4 and 6 keys read, you can press 2 or 8 to move through the various "reading modes".
 
-Options always available for the reading mode include characters, words, sentences, lines and paragraphs. That means that while 4 and 6 typically read sentences, if you press 2 you will hear "words", then 4 and 6 will read the previous or next word instead. You can decide if your navigation choice is retained on a global or per-file basis in the Reader's options menu.
+Options always available for the reading mode include characters, words, sentences, lines and paragraphs. That means that while 4 and 6 typically read sentences, if you press 2 you will hear "words", then 4 and 6 will read the previous or next word instead. You can decide if your navigation choice is retained on a global or per-file basis in the system menu.
 
 Some file types may support additional types of navigation, such as page, heading or chapter. You may have placed bookmarks in any given file, which will also be an option for the navigation mode selector, or you might have been performing a text-based search within a file, where 4 and 6 are used to move to the previous or next search result. 
 
@@ -107,7 +107,7 @@ To read a different file, you have 2 options.
 1. Hold down 4 or 6. 4 Will move to the previous file in the current folder, and 6 will move to the next file. You'll hear the name of the file spoken. Pressing 5 will play the file, either from the beginning if you've not started it yet, or resuming from where you last left off.
 2. Press 7. The 7 key moves you to the list of files and folders on the Reader, called your library. In this mode, 4 and 6 move between files. You can press 2 (up), or 7(bak)  again, to move "up" or "Out" of the current folder, if you are in one. You can press 8 (down) or 5 (play)  to move "Into" a folder, where you'll hear the name of the first file or folder inside the one you have entered. 
 
-By default, files are listed alphabetically. You can change this in the options menu.
+By default, files are listed alphabetically. You can change this in the system menu.
 
 TO summarise: holding 4 and 6 moves through the files in the active folder. For a new product, this will be the quick start guide, the full owner's manual, the assembly instructions and the development diary. To navigate a more complex structure you can open the library by pressing 7, which is navigated using the 2, 4, 6 and 8 keys in a square around your play key. You'll find some classic out-of-copyright content in a folder called Books, just to get you used to the idea. You're free to replace all the content on the card whenever you like, and the initial version, or indeed updated versions, will be on the project's website.
 
@@ -120,7 +120,7 @@ Note: having the wireless radio receiver enabled will dramatically reduce your b
 
 
 #### Checking the battery level
-The star key is used for status information. Press it while reading to hear the remaining battery percentage. Repeated presses of the key cycle through different information and you can choose which data you hear when using this key in the options menu.
+The star key is used for status information. Press it while reading to hear the remaining battery percentage. Repeated presses of the key cycle through different information.
 
 
 #### Turning the reader off.
@@ -199,6 +199,8 @@ For example, the first set of options are the speech volume, rate and pitch. Use
 * remember navigation: Determines whether your chosen navigation element is retained on a per-book basis. Default: off. Note: this data is saved in the Babel file.
 * default navigation mode: Determines which navigation mode is chosen by default and, if remember navigation is off, each time you open a book. Choices: Characters, words, sentences, lines, paragraphs. Default: sentence.
 * Bable location: Determines where the "bable" file is stored. Choices: Reader, SD Card. Default: Reader.  Note: larger book collections will cause your Babel file to increase in size. Read the section on the Babel file in this owner's manual to understand how this might impact you.
+* On file completion: determines whether, upon finishing reading a file, the Reader does anything else. Choices: Go to sleep, restart the file from the beginning, start the next file. Default: go to sleep.
+File sorting: Determines the order of files listed on the SD card. Choices: Alphabetical, date modified, date accessed, size. Default: alphabetical
 * Hold Time: Determines how long, in milliseconds, you need to hold down a button before it's secondary function is activated. Choices: 25 to 250 ms. Default, 100MS.
 * Idle time: Determines how long the Reader will wait for a button before going into deep sleep. Range: 10 to 300 seconds. Default: 30 seconds.
 * UI Sound volume: determines whether and at what volume user interface sounds are played. range: 0 (off) to 15 (loudest).
