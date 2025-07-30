@@ -26,6 +26,16 @@ In buying a Randall Reader, you're also buying into an ethos of replaceability a
 #### Introduction
 The Randall reader is designed to read textual  content you place onto its memory card  using a computer, phone or tablet. It ships with a copy of this user guide preinstalled and the battery will have some charge due to testing before it is sent to you.
 
+It is important you understand what the Reader *won't* support from the outset. This includes:
+
+* Bluetooth is not used.
+* USB-C earphones are not supported. 
+* There is no software text-to-speech, the only voice available is through the Doubletalk chip inside the Reader.
+* The Reader will not support playing audiobooks, nor read any DRm-protected content.
+* The only format supported on launch will be plain text files.
+
+
+
 Note: if you have ordered the self-assembly version of the reader, your battery may be empty as you assemble the device. Before proceeding with the instructions in this subsection, either connect the USB-C cable to a power source after assembly or operate the unit whilst it's sat on a charging stand if you have the wireless charging "Qi" case.
 
 #### physical overview
