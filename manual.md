@@ -188,10 +188,10 @@ For example, the first set of options are the speech volume, rate and pitch. Use
 * Pitch: determines the average pitch of the voice. Range, 0 to 15. Default, 8.
 Punctuation: Determines whether, and how much, punctuation is read. Choices: None, some, all. Default: none.
 * Voice: determines which of the built-in voices you will be using. Range, 0 (articulate male) to 7 (robot). Default, 0.
-Articulation: Determines clarity vs. slurring. range: 0 to 9. Default, 5.
-Expression: Determines intonation/animation. Range: 0 to 9. Default: 5.
-Formant Frequency: Determines  vocal tract  size. Range: 0 to 99. Default: 50.
-Reverb : determines resonance of the voice. Range: 0 to 9. Default: 0.
+* Articulation: Determines clarity vs. slurring. range: 0 to 9. Default, 5.
+* Expression: Determines intonation/animation. Range: 0 to 9. Default: 5.
+* Formant Frequency: Determines  vocal tract  size. Range: 0 to 99. Default: 50.
+* Reverb : determines resonance of the voice. Range: 0 to 9. Default: 0.
 
 #### miscellaneous settings
 * Time and date: Hear or set the date and time. This is automatically established whenever you enable wifi. In the default mode and assuming you've given the Reader your wifi credentials, this means Reader will update the time whenever you charge it. You can set the time manually should you prefer from this menu. If you have *not* enabled wifi, you'll need to set the date and time yourself.
@@ -211,10 +211,10 @@ Reverb : determines resonance of the voice. Range: 0 to 9. Default: 0.
 * Hold Time: Determines how long, in milliseconds, you need to hold down a button before it's secondary function is activated. Choices: 25 to 250 ms. Default, 100MS.
 * Idle time: Determines how long the Reader will wait for a button before going into deep sleep. Range: 10 to 300 seconds. Default: 30 seconds.
 * UI Sound volume: determines whether and at what volume user interface sounds are played. range: 0 (off) to 15 (loudest).
-
+* Digital audio output: determines whether, when connected to your computer, the Reader sends the sound it generates through to the system as well as its own speaker or headphones. Default: off.
 #### System actions
 * Wireless radio: select to toggle on or off the wifi connection.  If this mode is already on and the Reader is connected to a network, you will hear the local hostname and IP address of the reader here. 
-* Speech synthesizer mode: select to enable the speech synthesizer passthrough. You can't use the Reader when this mode is turned off, which will automatically happen when you unplug the cable. This option is not functional without a connection to a computer.
+* Speech synthesizer mode: select to enable the speech synthesizer passthrough. You can't use the Reader until this mode is turned off, which will automatically happen when you unplug the cable. This option is not functional without a connection to a computer.
 * Reset Babel file: press this to remove all babel data. This is a destructive task that cannot be undone. Note: If there are babel files on the SD card and inside the Reader's internal memory, both will be removed.
 * Format SD card: select to format the memory card. This is a destructive task that cannot be undone. Note: formatting your SD card **will remove all its data**.
 * Initialise SD card: Will add the user's manual, quick start guide and other files originally provided on your Randall Reader to the current SD card. Note: This doesn't replace anything already on the card, unless there are already identically-named files which will be overwritten.
@@ -226,7 +226,7 @@ The Randall Reader needs to keep information about the files you play. Data such
 
 You can opt to store the file in the Reader's internal memory or on the SD card, both of which have their own advantages.
 
-If you choose to keep the file on the Reader's internal memory, you're limited in how many books you can keep track of. Conservatively you'll be able to store roughly 200 bookmarks and file positions. The Reader will remove the oldest stored data to keep the file under a manageable size. This will mean that, if you revisit a book you were in hundreds of books ago, your last read position and bookmark data is not retained. However, this storage method means that the Reader never has to write to the SD card whilst reading a file to you. Reading to SD cards is a far less distructive process than writing, so this should increase the lifetime of your removable media.
+If you choose to keep the file on the Reader's internal memory, you're limited in how many books you can keep track of. Conservatively you'll be able to store roughly 200 bookmarks and file positions. The Reader will remove the oldest stored data to keep the file under a manageable size. This will mean that, if you revisit a book you were in hundreds of books ago, your last read position and bookmark data is not retained. However, this storage method means that the Reader never has to write to the SD card whilst reading a file to you. Reading from SD cards is a far less distructive process than writing, so this should increase the lifetime of your removable media.
 
 Choosing to store the Babel file on the SD card means you don't need to worry about how big it is. You'll be able to set as many bookmarks in as many files as you like. It also keeps the bookmarks and reading positions with the files they apply to. The slight downside is the continued writing to the card, which could shorten its lifespan and decrease the runtime between charging of the Reader.
 
@@ -255,7 +255,9 @@ The Randall Reader does *not* work with captive portals or wireless networks req
 ### 2.6, Using the Reader as a speech synthesizer
  One of the best parts of the Reader is it's internal voice, powered by the V-Stamp chip from RC systems. By turning on speech synthesizer mode from the system menu, you can give access to this chip through a cable connected to your computer. Screen readers can open a port to send and receive data directly to the speech synthesizer in this mode.
 
-if I can't produce files to make this work anew with modern screen readers, I will work closely with those who want such a feature to set up emulation to the best of my ability so we can maximise compatibility across the screen reading ecosystem.  This feature will be in beta during the 1.0 release of the firmware.
+The digital audio option in the system menu might be of use here. With this mode on, the Reader appears as a microphone to your host computer. This allows you to listen to the voice of the Reader on your computer rather than needing to use separate headphones or use one device out-loud. The Reader has to be a microphone because, if it showed up as a sound card, you would only hear the reader and not your computers audio. By being a microphone, you can direct your computer's sound card or other audio equipment to mix the sound into your existing workflow.
+
+if I can't produce files to make the serial synthesizer work anew with modern screen readers, I will work closely with those who want such a feature to set up emulation to the best of my ability so we can maximise compatibility across the screen reading ecosystem.  This feature will be in beta during the 1.0 release of the firmware.
 
 To go back to the Reader's regular interface after turning this mode on, simply unplug the USB cable. If this feature becomes widely used we can discuss options for retaining the synthesizer mode more extensively, such as using the synthesizer wirelessly or acting as an NVDA Remote client. 
 
