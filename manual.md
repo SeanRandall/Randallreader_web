@@ -112,7 +112,7 @@ By default, files are listed alphabetically. You can change this in the system m
 TO summarise: holding 4 and 6 moves through the files in the active folder. For a new product, this will be the quick start guide, the full owner's manual, the assembly instructions and the development diary. To navigate a more complex structure you can open the library by pressing 7, which is navigated using the 2, 4, 6 and 8 keys in a square around your play key. You'll find some classic out-of-copyright content in a folder called Books, just to get you used to the idea. You're free to replace all the content on the card whenever you like, and the initial version, or indeed updated versions, will be on the project's website.
 
 #### Adding content
-Connect your Randall Reader to a computer, phone or tablet, or remove its Micro sD card and use a slot or card reader, to transfer content. The first version of the Randall reader accepts only plain text files. You are free to create folders and organise the content on the card in any way you wish. There's no processing of the files needed, other than everything that is not a text file being ignored.  
+Connect your Randall Reader to a computer, phone or tablet, or remove its Micro sD card and use a slot or card reader, to transfer content. The first version of the Randall reader accepts only plain text files. You are free to create folders and organise the content on the card in any way you wish. There's no processing of the files or use of special folders needed, other than everything that is not a text file being ignored.  
 
 You can also choose to ad content wirelessly if you prefer. Randall Reader will need to know about your home wifi network for this to work and that's beyond the scope of this quick start guide, but do check out the full owner's instruction manual if you are interested.
 
@@ -212,6 +212,7 @@ Punctuation: Determines whether, and how much, punctuation is read. Choices: Non
 * Idle time: Determines how long the Reader will wait for a button before going into deep sleep. Range: 10 to 300 seconds. Default: 30 seconds.
 * UI Sound volume: determines whether and at what volume user interface sounds are played. range: 0 (off) to 15 (loudest).
 * Digital audio output: determines whether, when connected to your computer, the Reader sends the sound it generates through to the system as well as its own speaker or headphones. Default: off.
+
 #### System actions
 * Wireless radio: select to toggle on or off the wifi connection.  If this mode is already on and the Reader is connected to a network, you will hear the local hostname and IP address of the reader here. 
 * Speech synthesizer mode: select to enable the speech synthesizer passthrough. You can't use the Reader until this mode is turned off, which will automatically happen when you unplug the cable. This option is not functional without a connection to a computer.
