@@ -198,13 +198,14 @@ Punctuation: Determines whether, and how much, punctuation is read. Choices: Non
 * Verbosity: Determines how chatty the Reader is about providing help and information during use. Choices: Beginner, advanced. Default: Beginner.
 * Wireless mode: determines when the Reader will connect to wifi. Choices: When plugged in, Manual. Default:  When plugged in. Note: if you set this to manual, the Reader will never enable its wireless radio unless you specifically do so through the wireless radio option below. In such a case, you'll need to set the system clock yourself.
 * Bookmark on stop: determines whether, as well as storing your last played location in each file, that information is saved for future use in the bookmark list when the reader goes to sleep. Default: off. Note: this information is saved in the babel file. If you frequently pause a book and let the device go to sleep with this setting on, your Babel file could grow large quite quickly. 
-* reset sleep timer on keypress: Determines whether, if you have activated the sleep timer, it restarts counting each time you press a button. Default: off.
+* reset sleep timer on keypress: Determines whether, if you have activated the sleep timer, it restarts from the beginning each time you press a button. Default: off.
 * Start sleep timer on wake: Determines whether the sleep timer is automatically restarted whenever you wake the device. Default, off.
+* Rewind on pause: Determines whether the Reader will pause *exactly* where you press, or if it'll go back to the start of the previous unit. Choices: Off, Word, Sentence, Line, Paragraph. Default: Word.
 * Separate volumes: Determines whether the Reader stores a separate volume level for the headphones and internal speaker. Default: on.
 * Wrapping: Determines whether edges are stops, or if you can move to the top of a list immediately from the bottom. this applies in the library and whilst adjusting settings such as mode, volume and speed during playback. Default: off.
 * remember navigation: Determines whether your chosen navigation element is retained on a per-book basis. Default: off. Note: this data is saved in the Babel file.
 * default navigation mode: Determines which navigation mode is chosen by default and, if remember navigation is off, each time you open a book. Choices: Characters, words, sentences, lines, paragraphs. Default: sentence.
-* Bable location: Determines where the "bable" file is stored. Choices: Reader, SD Card. Default: Reader.  Note: larger book collections will cause your Babel file to increase in size. Read the section on the Babel file in this owner's manual to understand how this might impact you.
+* Bable location: Determines where the "bable" file is stored. Choices: Reader, SD Card. Default: Reader.  
 * On file completion: determines whether, upon finishing reading a file, the Reader does anything else. Choices: Go to sleep, restart the file from the beginning, start the next file. Default: go to sleep.
 * File sorting: Determines the order of files listed on the SD card. Choices: Alphabetical, date, size. Default: alphabetical
 * Show recent files: determines whether a "recents" folder appears in your library, listing the latest files you've accessed. Default: on.
