@@ -1,3 +1,8 @@
 title: Randall Reader
 baseurl: ""
 image_path: /assets/images
+plugins:
+  - jekyll-feed
+title: The Randall Reader Development Diary
+
+author: Sean Randall
