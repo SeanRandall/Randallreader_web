@@ -1,0 +1,42 @@
+# Wiring Diagram for Keypad
+
+ESP32: "ESP32-S3 Board" {
+  shape: rectangle
+
+  # Define the specific pins we are using on the ESP32.
+  G17: GPIO 17
+  G16: GPIO 16
+  G15: GPIO 15
+  G14: GPIO 14
+  
+  G13: GPIO 13
+  G12: GPIO 12
+  G11: GPIO 11
+}
+
+Keypad: "3x4 Matrix Keypad" {
+  shape: rectangle
+  
+  # Define the 7 pins on the keypad, in order from left to right.
+  P1: Pin 1 (Column 1)
+  P2: Pin 2 (Column 2)
+  P3: Pin 3 (Column 3)
+
+  P4: Pin 4 (Row 1)
+  P5: Pin 5 (Row 2)
+  P6: Pin 6 (Row 3)
+  P7: Pin 7 (Row 4)
+}
+
+
+
+# Connect the 3 Column pins
+ESP32.G13 -- Keypad.P1
+ESP32.G12 -- Keypad.P2
+ESP32.G11 -- Keypad.P3
+
+# Connect the 4 Row pins
+ESP32.G17 -- Keypad.P4
+ESP32.G16 -- Keypad.P5
+ESP32.G15 -- Keypad.P6
+ESP32.G14 -- Keypad.P7
