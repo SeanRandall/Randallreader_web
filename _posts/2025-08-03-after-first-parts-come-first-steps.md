@@ -5,6 +5,7 @@ title:  "after first parts come first steps"
 Delivery 2 appeared late last night.
 
 ![A collection of breadboards and jumper cables](/assets/images/2025-08-03-02.png) 
+
 My wife kept telling me I could pick up a breadboard from the supermarket. She'd never seen anything like one of these before. Her verdict?
 
 >" It's full of holes."
